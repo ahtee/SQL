@@ -1,0 +1,21 @@
+What is a complete dependency diagram?
+
+1NF- all attributes
+	Desirable above line, partial and transitive below line 
+	partial dependencies
+	Transitive dependencies  - dotted line
+
+2NF - all attributes 
+	partial dependencies are all their own tables 
+	partial dependencies have become 	desireable 	dependencies
+	transitive dependencies - dotted line
+
+3NF - All attributes
+	partial dependencies are all their own tables
+	partial dependencies have becone desirable dependencies 
+	transitive dependencies have becme their own tables 
+	transitive dependencies have become desirable dependencies 
+	An appropriate PK/FK has been added
+	
+Text format for each table
+add (( STUDENT (S_ID, S_Fname, S_Lname,,,,,,,,,) )) add underline on PK
